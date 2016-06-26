@@ -1,0 +1,6 @@
+while true; do
+
+cat acn_valid_u2_2 | nc -4u -w 0  192.168.2.214 5568
+sleep .025
+
+done
